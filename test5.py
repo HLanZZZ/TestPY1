@@ -19,5 +19,8 @@ print(s)
 # test: (1,2,3) 和 (1,[2,3]) 放进tuple和set中去
 tup = (1,2,3,1,[2,3])
 print(tup)
-se = ([1,2,3,1,[2,3]])
-print(se)
+# unhashable type: 'list'
+# se = set([1,2,3,1,[2,3]])
+se2 = set([1,2,3,1])
+# print(se)
+print(se2)
